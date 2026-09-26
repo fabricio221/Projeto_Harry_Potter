@@ -35,7 +35,7 @@ st.header(f'nome de {personagem['name']}')
 # ===== IMAGEM EM DESTAQUE =====
 # Verifica se o personagem tem imagem
 if persoangem['image'] and persoangem !="":
-    st.image(personagem,['image'], width=300)
+    st.image(personagem['image'], width=300)
 else:
     st.write("este personagem nao possui imagm")
 
