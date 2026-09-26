@@ -40,7 +40,7 @@ else:
     st.write("este personagem nao possui imagm")
 
 # Linha divisória
-st.divider
+st.divider()
 
 # Informações principais
 st.write(f"**Casa:**{personagem['house']}")
